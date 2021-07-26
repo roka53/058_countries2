@@ -1,0 +1,208 @@
+
+/* mit noselect wird das markieren von Text verhindert */
+/*
+.noselect {
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  }
+*/
+body   {
+	background-color: DeepSkyBlue ;
+
+}
+
+h2, h4 {
+  text-align:center;
+  grid-column: 1 / span 2;
+	margin: 10px;
+
+  }
+	h5 {
+	  text-align:center;
+	  grid-column: 1 / span 2;
+		margin-bottom: 20px;
+
+	  }
+.box1, .box2, .box3,
+.box4, .box5, .box6 {
+  width: 90px;
+  color: green;
+  text-align: center;
+  background-color: lightyellow;
+  border:  2px solid red;
+  border-radius: 0 1em 1em 1em;
+  margin:  10px auto;
+  padding: 1em;
+}
+
+/*#container1,*/
+#container2,
+#container3,
+#container4,
+#container5,
+#container6,
+#container7,
+#settingBtn {
+  visibility: hidden;
+  }
+
+#einstellungen  {
+  visibility: visible;
+  }
+
+.container1	{
+	display: grid;
+	grid-template-columns: 170px 170px;
+  }
+
+  .container1 img {
+  	width: 100%;
+  	display: block;
+    }
+	  .world_map {
+	    margin-top: 0px;
+	    grid-column: 1 / 3;
+	    }
+		#reStart, #gallery	{
+			width: 70px;
+		  color: green;
+		  text-align: center;
+		  background-color: lightyellow;
+		  border:  2px solid blue;
+		  border-radius: 1em 1em 1em 1em;
+
+			margin:  10px auto;
+		  padding: 1em;
+			}
+
+.container2 {
+	display: grid;
+	grid-template-columns: 170px 170px;
+	/* Container nach oben schieben */
+	margin-top: -630px;
+	}
+
+	.container2 img {
+		width: 100%;
+		display: block;
+	  }
+	.map1_6	{
+    margin-top: 0px;
+    grid-column: 1 / 3;
+		border:  1px solid blue;
+    }
+
+.container3 {
+	display: grid;
+	grid-template-columns: 170px 170px;
+	/* Container nach oben schieben */
+	margin-top: -570px;
+
+	}
+
+	.container3 img {
+		width: 100%;
+		display: block;
+	  }
+	.selectedMap	{
+    margin-top: 0px;
+    grid-column: 1 / 3;
+    }
+
+	.flag1, .flag2,
+	.flag3, .flag4	{
+			border:  2px solid black;
+		}
+
+.container4 {
+	display: grid;
+	grid-template-columns: 170px 170px;
+	/* Container nach oben schieben */
+	margin-top: -570px;
+	/*margin-top: -620px;*/
+	}
+
+	.container4 img {
+		width: 100%;
+		display: block;
+	  }
+	.holland_map,
+	 	.italy_map,
+		.mexico_map	{
+    margin-top: 0px;
+    grid-column: 1 / 3;
+    }
+
+.container5 {
+	display: grid;
+	grid-template-columns: 170px 170px;
+	/* Container nach oben schieben */
+	margin-top: -570px;
+	}
+
+	.container5 img {
+		width: 100%;
+		display: block;
+	  }
+	.holland_map,
+	 	.italy_map,
+		.mexico_map	{
+    margin-top: 0px;
+    grid-column: 1 / 3;
+    }
+
+.container6 {
+	display: grid;
+	grid-template-columns: 170px 170px;
+	/* Container nach oben schieben */
+	margin-top: -570px;
+	}
+
+	.nextCountry h5 {
+	  text-align:center;
+	  grid-column: 1 / span 2;
+		margin: 10px;
+	  }
+
+	.container6 img {
+		width: 100%;
+		display: block;
+	  }
+	.holland_map,
+	 	.italy_map,
+		.mexico_map	{
+    margin-top: 0px;
+    grid-column: 1 / 3;
+    }
+	.counter	{
+		text-align: center;
+		color: blue;
+		font-weight: bold;
+		border:  1px solid blue;
+		}
+
+.container7 {
+	display: grid;
+	grid-template-columns: 170px 170px;
+	margin-top: 70px;
+	}
+
+	.container7 img {
+  	width: 340px;
+  	display: block;
+		margin-bottom: 0px;
+    }
+
+	.gallery h2, h4 {
+	  text-align:center;
+	  grid-column: 1 / span 2;
+	/*	margin: 20px;*/
+	  }
+	.gallery h5	{
+	  text-align:center;
+	  grid-column: 1 / span 2;
+		margin: 60px;
+		color:red;
+	  }
