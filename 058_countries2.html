@@ -10,56 +10,54 @@
   <body class="noselect">
 
     <div id="container1" class="container1">
-      <h2 id="titel" class="titel">Country game</h2>
-      <h4 id="titel_text" class="titel_text"> Choose a country </h4>
-        <p id="box1" class="box1" onclick="chooseCountry('1');"> Holland </p>
-        <p id="box2" class="box2" onclick="chooseCountry('2');"> Italy </p>
-        <p id="box3" class="box3" onclick="chooseCountry('3');"> Mexico </p>
-        <p id="box4" class="box4" onclick="chooseCountry('4');"> Switzerland </p>
-        <p id="box5" class="box5" onclick="chooseCountry('5');"> Brazil </p>
-        <p id="box6" class="box6" onclick="chooseCountry('6');"> India </p>
-      <img class="world_map" id="world_map" src="media/057_map_world.png" alt="map_world">
-      <!--  <p><a href="057_nutzungsrechte.html" target="_blank">Nutzungsrechte</a></p>
-      -->
-      <p id="gallery" class="gallery" onclick="gallery();">Learning</p>
-      <p id="reStart" class="reStart" onclick="reStart();">Restart</p>
+      <h2 id="titel">Country game</h2>
+      <h4 id="titel_text"> Choose a country </h4>
+        <p id="box1" class="box" onclick="chooseCountry('1');"> Holland </p>
+        <p id="box2" class="box" onclick="chooseCountry('2');"> Italy </p>
+        <p id="box3" class="box" onclick="chooseCountry('3');"> Mexico </p>
+        <p id="box4" class="box" onclick="chooseCountry('4');"> Switzerland </p>
+        <p id="box5" class="box" onclick="chooseCountry('5');"> Brazil </p>
+        <p id="box6" class="box" onclick="chooseCountry('6');"> India </p>
+      <img id="world_map" class="world_map" src="media/057_map_world.png" alt="map_world">
+        <p id="gallery" class="gallery" onclick="gallery();">Learning</p>
+        <p id="reStart" class="reStart" onclick="reStart();">Restart</p>
     </div>
 
     <div id="container2" class="container2">
-      <h2 id="country" class="country"> Country </h2>
-      <h4 id="map_text" class="map_text"> container 2 </h4>
-      <img id="map1" class="map1_6" onclick="checkMap('1');" src="media/057_map_world.png" alt="map_world">
-      <img id="map2" class="map1_6" onclick="checkMap('2');" src="media/057_map_italy.png" alt="map_italy">
+      <h2 id="country"> Country </h2>
+      <h4 id="map_text"> container 2 </h4>
+      <img id="map1" class="map1_2" onclick="checkMap('1');" src="media/057_map_world.png" alt="map1">
+      <img id="map2" class="map1_2" onclick="checkMap('2');" src="media/057_map_italy.png" alt="map2">
     </div>
 
     <div id="container3" class="container3">
-      <h2 id="flag" class="flag"> Flag </h2>
-      <h4 id="flag_text" class="flag_text"> container 3 </h4>
-      <img id="flag1" class="flag1" onclick="checkFlag('1');" src="media/057_Flag_of_Switzerland.svg" alt="flag1">
-      <img id="flag2" class="flag2" onclick="checkFlag('2');" src="media/057_Flag_of_Mexico.svg" alt="flag2">
-      <img id="flag3" class="flag3" onclick="checkFlag('3');" src="media/057_Flag_of_Italy.svg" alt="flag3">
-      <img id="flag4" class="flag4" onclick="checkFlag('4');" src="media/057_Flag_of_Netherlands.svg" alt="flag4">
-      <img id="selectedMap3" class="selectedMap" src="media/057_map_italy.png" alt="selectedMap">
+      <h2 id="flag"> Flag </h2>
+      <h4 id="flag_text"> container 3 </h4>
+      <img id="flag1" class="flag" onclick="checkFlag('1');" src="media/057_Flag_of_Switzerland.svg" alt="flag1">
+      <img id="flag2" class="flag" onclick="checkFlag('2');" src="media/057_Flag_of_Mexico.svg" alt="flag2">
+      <img id="flag3" class="flag" onclick="checkFlag('3');" src="media/057_Flag_of_Italy.svg" alt="flag3">
+      <img id="flag4" class="flag" onclick="checkFlag('4');" src="media/057_Flag_of_Netherlands.svg" alt="flag4">
+      <img id="selectedMap3" class="selectedMap" src="media/057_map_italy.png" alt="selectedMap3">
     </div>
 
     <div id="container4" class="container4">
-      <h2 id="food" class="food"> Food </h2>
-      <h4 id="food_text" class="food_text"> container 4 </h4>
-      <img id="food1" class="food1" onclick="checkFood('1');" src="media/057_food_italy.png" alt="food1">
-      <img id="food2" class="food2" onclick="checkFood('2');" src="media/057_food_holland.png" alt="food2">
-      <img id="food3" class="food3" onclick="checkFood('3');" src="media/057_food_mexico.png" alt="food3">
-      <img id="food4" class="food4" onclick="checkFood('4');" src="media/057_food_brazil.png" alt="food4">
-      <img id="selectedMap4" class="selectedMap" src="media/057_map_italy.png" alt="selectedMap">
+      <h2 id="food"> Food </h2>
+      <h4 id="food_text"> container 4 </h4>
+      <img id="food1" class="food" onclick="checkFood('1');" src="media/057_food_italy.png" alt="food1">
+      <img id="food2" class="food" onclick="checkFood('2');" src="media/057_food_holland.png" alt="food2">
+      <img id="food3" class="food" onclick="checkFood('3');" src="media/057_food_mexico.png" alt="food3">
+      <img id="food4" class="food" onclick="checkFood('4');" src="media/057_food_brazil.png" alt="food4">
+      <img id="selectedMap4" class="selectedMap" src="media/057_map_italy.png" alt="selectedMap4">
     </div>
 
     <div id="container5" class="container5">
-      <h2 id="special" class="special"> Special </h2>
+      <h2 id="special"> Special </h2>
       <h4 id="special_text" class="special_text"> container 5 </h4>
-      <img id="special1" class="special1" onclick="checkSpecial('1');" src="media/057_special_italy.png" alt="special1">
-      <img id="special2" class="special2" onclick="checkSpecial('2');" src="media/057_special_holland.png" alt="special2">
-      <img id="special3" class="special3" onclick="checkSpecial('3');" src="media/057_special_switzerland.png" alt="special3">
-      <img id="special4" class="special4" onclick="checkSpecial('4');" src="media/057_special_brazil.png" alt="special4">
-      <img id="selectedMap5" class="selectedMap" src="media/057_map_italy.png" alt="selectedMap">
+      <img id="special1" class="special" onclick="checkSpecial('1');" src="media/057_special_italy.png" alt="special1">
+      <img id="special2" class="special" onclick="checkSpecial('2');" src="media/057_special_holland.png" alt="special2">
+      <img id="special3" class="special" onclick="checkSpecial('3');" src="media/057_special_switzerland.png" alt="special3">
+      <img id="special4" class="special" onclick="checkSpecial('4');" src="media/057_special_brazil.png" alt="special4">
+      <img id="selectedMap5" class="selectedMap" src="media/057_map_italy.png" alt="selectedMap5">
     </div>
 
     <div id="container6" class="container6">
@@ -72,82 +70,153 @@
       </div>
         <img id="end3" class="end3" src="media/057_Flag_of_Italy.svg"  alt="end3">
         <img id="end4" class="end4" src="media/057_food_italy.png"  alt="end4">
-        <img id="selectedMap6" class="selectedMap" onclick="nextCountry('1');" src="media/057_map_italy.png" alt="selectedMap">
+        <img id="selectedMap6" class="selectedMap" onclick="nextCountry('1');" src="media/057_map_italy.png" alt="selectedMap6">
       </div>
 
     <div id="container7" class="container7">
+        <h2 id="finish2" class="finish"> Finish </h2>
+
+        <div id="counter1" class="counter1">
+          <p id="points2"> Points: 900</p>
+          <p id="faults2"> Faults: 4</p>
+        </div>
+        <p id="gallery" class="gallery" onclick="gallery();">Learning</p>
+        <p id="reStart" class="reStart" onclick="reStart();">Restart</p>
+        <p id="next6" class="next6" onclick="next6();">Next six countries</p>
+      </div>
+
+    <div id="container8" class="container8">
       <h2 class="gallery">Maps</h2>
-        <h4 class="gallery">World</h4>
-          <img class="gallery" src="media/057_map_world.png" alt="057_map_world.png">
-        <h4 class="gallery">Holland</h4>
-          <img class="gallery" src="media/057_map_holland.png"  alt="057_map_holland.png">
-        <h4 class="gallery">Italy</h4>
-          <img class="gallery" src="media/057_map_italy.png"  alt="057_map_italy.png">
-        <h4 class="gallery">Mexico</h4>
-          <img class="gallery" src="media/057_map_mexico.png"  alt="057_map_mexico.png">
-        <h4 class="gallery">Switzerland</h4>
-          <img class="gallery" src="media/057_map_switzerland.png"  alt="057_map_switzerland.png">
-        <h4 class="gallery">Brazil</h4>
-          <img class="gallery" src="media/057_map_brazil.png"  alt="057_map_brazil.png">
-        <h4 class="gallery">India</h4>
-          <img class="gallery" src="media/057_map_india.png"  alt="media/057_map_india.png">
+        <div>
+          <div class="rahmen">
+            <h4 class="gallery">World</h4>
+            <img class="gallery" src="media/057_map_world.png" alt="057_map_world.png">
+          </div>
+          <div class="rahmen">
+            <h4 class="gallery">Holland</h4>
+            <img class="gallery" src="media/057_map_holland.png"  alt="057_map_holland.png">
+          </div>
+          <div class="rahmen">
+            <h4 class="gallery">Italy</h4>
+            <img class="gallery" src="media/057_map_italy.png"  alt="057_map_italy.png">
+          </div>
+          <div class="rahmen">
+            <h4 class="gallery">Mexico</h4>
+            <img class="gallery" src="media/057_map_mexico.png"  alt="057_map_mexico.png">
+          </div>
+          <div class="rahmen">
+            <h4 class="gallery">Switzerland</h4>
+            <img class="gallery" src="media/057_map_switzerland.png"  alt="057_map_switzerland.png">
+          </div>
+          <div class="rahmen">
+            <h4 class="gallery">Brazil</h4>
+            <img class="gallery" src="media/057_map_brazil.png"  alt="057_map_brazil.png">
+          </div>
+          <div class="rahmen">
+            <h4 class="gallery">India</h4>
+            <img class="gallery" src="media/057_map_india.png"  alt="media/057_map_india.png">
+          </div>
+        </div>
 
       <h2 class="gallery">Flags</h2>
-        <h4 class="gallery">Holland</h4>
-        <img class="gallery" src="media/057_Flag_of_Netherlands.svg" alt="057_Flag_of_Netherlands.svg">
-        <h4 class="gallery">Italy</h4>
-        <img class="gallery" src="media/057_Flag_of_Italy.svg"  alt="057_Flag_of_Italy.svg">
-        <h4 class="gallery">Mexico</h4>
-        <img class="gallery" src="media/057_Flag_of_Mexico.svg"  alt="057_Flag_of_Mexico.svg">
-        <h4 class="gallery">Switzerland</h4>
-        <img class="gallery" src="media/057_Flag_of_Switzerland.svg"  alt="057_Flag_of_Switzerland.svg">
-        <h4 class="gallery">Brazil</h4>
-        <img class="gallery" src="media/057_Flag_of_Brazil.svg"  alt="057_Flag_of_Brazil.svg">
-        <h4 class="gallery">India</h4>
-        <img class="gallery" src="media/057_Flag_of_India.svg"  alt="057_Flag_of_India.svg">
+        <div>
+          <div class="rahmen">
+            <h4 class="gallery">Holland</h4>
+            <img class="gallery" src="media/057_Flag_of_Netherlands.svg" alt="057_Flag_of_Netherlands.svg">
+          </div>
+          <div class="rahmen">
+            <h4 class="gallery">Italy</h4>
+            <img class="gallery" src="media/057_Flag_of_Italy.svg"  alt="057_Flag_of_Italy.svg">
+          </div>
+          <div class="rahmen">
+            <h4 class="gallery">Mexico</h4>
+            <img class="gallery" src="media/057_Flag_of_Mexico.svg"  alt="057_Flag_of_Mexico.svg">
+          </div>
+          <div class="rahmen">
+            <h4 class="gallery">Switzerland</h4>
+            <img class="gallery" src="media/057_Flag_of_Switzerland.svg"  alt="057_Flag_of_Switzerland.svg">
+          </div>
+          <div class="rahmen">
+            <h4 class="gallery">Brazil</h4>
+            <img class="gallery" src="media/057_Flag_of_Brazil.svg"  alt="057_Flag_of_Brazil.svg">
+          </div>
+          <div class="rahmen">
+            <h4 class="gallery">India</h4>
+            <img class="gallery" src="media/057_Flag_of_India.svg"  alt="057_Flag_of_India.svg">
+          </div>
+        </div>
 
       <h2 class="gallery">Food</h2>
-        <h4 class="gallery">Holland</h4>
-          <img class="gallery" src="media/057_food_holland.png" alt="057_food_holland.png">
-          <h5> Gouda cheese </h5>
-        <h4 class="gallery">Italy</h4>
-          <img class="gallery" src="media/057_food_italy.png"  alt="057_food_italy.png">
-          <h5> Pizza </h5>
-        <h4 class="gallery">Mexico</h4>
-          <img class="gallery" src="media/057_food_mexico.png"  alt="057_food_mexico.png">
-          <h5> Taco </h5>
-        <h4 class="gallery">Switzerland</h4>
-          <img class="gallery" src="media/057_food_switzerland.png"  alt="057_food_switzerland.png">
-          <h5> Älplermagronen with apple compote as a side dish </h5>
-        <h4 class="gallery">Brazil</h4>
-          <img class="gallery" src="media/057_food_brazil.png"  alt="057_food_brazil.png">
-          <h5> Coffee beans </h5>
-        <h4 class="gallery">India</h4>
-          <img class="gallery" src="media/057_food_india.png"  alt="057_food_india.png">
-          <h5> Indian spice </h5>
+        <div>
+          <div class="rahmen">
+            <h4 class="gallery">Holland</h4>
+            <img class="gallery" src="media/057_food_holland.png" alt="057_food_holland.png">
+            <h5> Gouda cheese </h5>
+          </div>
+          <div class="rahmen">
+            <h4 class="gallery">Italy</h4>
+            <img class="gallery" src="media/057_food_italy.png"  alt="057_food_italy.png">
+            <h5> Pizza </h5>
+          </div>
+          <div class="rahmen">
+            <h4 class="gallery">Mexico</h4>
+            <img class="gallery" src="media/057_food_mexico.png"  alt="057_food_mexico.png">
+            <h5> Taco </h5>
+          </div>
+          <div class="rahmen">
+            <h4 class="gallery">Switzerland</h4>
+            <img class="gallery" src="media/057_food_switzerland.png"  alt="057_food_switzerland.png">
+            <h5> Älplermagronen with apple compote as a side dish </h5>
+          </div>
+          <div class="rahmen">
+            <h4 class="gallery">Brazil</h4>
+            <img class="gallery" src="media/057_food_brazil.png"  alt="057_food_brazil.png">
+            <h5> Coffee beans </h5>
+          </div>
+          <div class="rahmen">
+          <h4 class="gallery">India</h4>
+            <img class="gallery" src="media/057_food_india.png"  alt="057_food_india.png">
+            <h5> Indian spice </h5>
+          </div>
+        </div>
 
       <h2 class="gallery">Special</h2>
-          <h4 class="gallery">Holland</h4>
+        <div>
+          <div class="rahmen">
+            <h4 class="gallery">Holland</h4>
             <img class="gallery" src="media/057_special_holland.png" alt="057_special_holland.png">
             <h5> Windmills </h5>
-          <h4 class="gallery">Italy</h4>
+          </div>
+          <div class="rahmen">
+            <h4 class="gallery">Italy</h4>
             <img class="gallery" src="media/057_special_italy.png"  alt="057_special_italy.png">
             <h5> Leaning Tower of Pisa </h5>
-          <h4 class="gallery">Mexico</h4>
+          </div>
+          <div class="rahmen">
+            <h4 class="gallery">Mexico</h4>
             <img class="gallery" src="media/057_special_mexico.png"  alt="057_special_mexico.png">
             <h5> Sombrero </h5>
-          <h4 class="gallery">Switzerland</h4>
+          </div>
+          <div class="rahmen">
+            <h4 class="gallery">Switzerland</h4>
             <img class="gallery" src="media/057_special_switzerland.png"  alt="057_special_switzerland.png">
             <h5> Alphorn concert in Vals </h5>
-          <h4 class="gallery">Brazil</h4>
+          </div>
+          <div class="rahmen">
+            <h4 class="gallery">Brazil</h4>
             <img class="gallery" src="media/057_special_brazil.png"  alt="057_special_brazil.png">
             <h5> Brazilian Carnival </h5>
-          <h4 class="gallery">India</h4>
+          </div>
+          <div class="rahmen">
+            <h4 class="gallery">India</h4>
             <img class="gallery" src="media/057_special_india.png"  alt="057_special_india.png">
             <h5> Golden Temple (Harmandir Sahib) at night </h5>
-    </div>
-    <div>
-      <p><a href="057_nutzungsrechte.html" target="_blank">Nutzungsrechte</a></p>
+          </div>
+        </div>
+      <br>
+      <div>
+        <p><a href="057_nutzungsrechte.html" target="_blank">Nutzungsrechte</a></p>
+      </div>
     </div>
 
     <script>
@@ -343,14 +412,15 @@
         map_text = "Click the map from ";
         }
 
-        function reStart() {
-          window.location.reload()
-        }
+      function reStart() {
+        window.location.reload()
+        window.scrollTo(0, 0);
+      }
 
-        function gallery()  {
-          document.getElementById("container7").style.visibility = "visible";
-          window.scrollBy({ top: 300, left: 0, behavior: "smooth" });
-        }
+      function gallery()  {
+        document.getElementById("container8").style.visibility = "visible";
+        window.scrollBy({ top: 300, left: 0, behavior: "smooth" });
+      }
 
       function checkMap(mapKey) { // container2
         if (mapKey == 1 && map == "true1" ) {
@@ -581,7 +651,6 @@
               points = points + 100;
               finish = "Good job!";
               finish_text = "Click map for next country";
-
               document.getElementById("container2").style.visibility = "hidden";
               document.getElementById("container3").style.visibility = "hidden";
               document.getElementById("container4").style.visibility = "hidden";
@@ -604,6 +673,7 @@
         // Anzahl Countries, bei 6 click auf Map
         // Endstand und reload anzeigen
         countryCount = countryCount +1;
+        // if (countryCount == 2) { // for test
         if (countryCount == 6) {
           schluss();
         }
@@ -618,16 +688,14 @@
 
         function schluss ()  {
         // console.log("Ende");
-          finish_text = "Game is over";
+          finish2 = "Game over";
           document.getElementById("finish").innerHTML = finish;
-          document.getElementById("finish_text").innerHTML = finish_text;
-          document.getElementById('reStart').style.visibility = "visible";
-          document.getElementById('counter').style.visibility = "visible";
-
-          document.getElementById('end1').style.visibility = "hidden";
-          document.getElementById('end3').style.visibility = "hidden";
-          document.getElementById('end4').style.visibility = "hidden";
-          document.getElementById('selectedMap6').style.visibility = "hidden";
+          document.getElementById("finish2").innerHTML = finish2;
+          document.getElementById("container1").style.visibility = "hidden";
+          document.getElementById("container6").style.visibility = "hidden";
+          document.getElementById("container7").style.visibility = "visible";
+          document.getElementById('points2').innerHTML = "Points: " + points + " from maximum 2400";
+          document.getElementById('faults2').innerHTML = "Faults: " + faults;
         }
       }
     </script>
