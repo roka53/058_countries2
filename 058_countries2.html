@@ -5,22 +5,28 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="styles/058_countries2.css" rel="stylesheet" type="text/css">
-    <title>Country game</title>
+    <title>Country game 2</title>
   </head>
   <body class="noselect">
 
     <div id="container1" class="container1">
-      <h2 id="titel">Country game</h2>
+      <h2 id="titel">Country game 2</h2>
       <h4 id="titel_text"> Choose a country </h4>
-        <p id="box1" class="box" onclick="chooseCountry('1');"> Holland </p>
-        <p id="box2" class="box" onclick="chooseCountry('2');"> Italy </p>
-        <p id="box3" class="box" onclick="chooseCountry('3');"> Mexico </p>
-        <p id="box4" class="box" onclick="chooseCountry('4');"> Switzerland </p>
-        <p id="box5" class="box" onclick="chooseCountry('5');"> Brazil </p>
-        <p id="box6" class="box" onclick="chooseCountry('6');"> India </p>
-      <img id="world_map" class="world_map" src="media/057_map_world.png" alt="map_world">
-        <p id="gallery" class="gallery" onclick="gallery();">Learning</p>
-        <p id="reStart" class="reStart" onclick="reStart();">Restart</p>
+        <p id="box1" class="box" onclick="chooseCountry('1');"> Country 1 </p>
+        <p id="box2" class="box" onclick="chooseCountry('2');"> Country 2 </p>
+        <p id="box3" class="box" onclick="chooseCountry('3');"> Country 3 </p>
+        <p id="box4" class="box" onclick="chooseCountry('4');"> Country 4 </p>
+        <p id="box5" class="box" onclick="chooseCountry('5');"> Country 5 </p>
+        <p id="box6" class="box" onclick="chooseCountry('6');"> Country 6 </p>
+        <p id="box7" class="box" onclick="chooseCountry('7');"> Country 7 </p>
+        <p id="box8" class="box" onclick="chooseCountry('8');"> Country 8 </p>
+        <p id="box9" class="box" onclick="chooseCountry('9');"> Country 9 </p>
+        <p id="box10" class="box" onclick="chooseCountry('10');"> Country 10 </p>
+        <p id="box11" class="box" onclick="chooseCountry('11');"> Country 11 </p>
+        <p id="box12" class="box" onclick="chooseCountry('12');"> Country 12 </p>
+        <img id="world_map" class="world_map" src="media/057_map_world.png" alt="map_world">
+        <p id="gallery" class="gallery" onclick="gallery();"> Learning </p>
+        <p id="reStart" class="reStart" onclick="reStart();"> Restart </p>
     </div>
 
     <div id="container2" class="container2">
@@ -70,7 +76,7 @@
       </div>
         <img id="end3" class="end3" src="media/057_Flag_of_Italy.svg"  alt="end3">
         <img id="end4" class="end4" src="media/057_food_italy.png"  alt="end4">
-        <img id="selectedMap6" class="selectedMap" onclick="nextCountry('1');" src="media/057_map_italy.png" alt="selectedMap6">
+        <img id="selectedMap6" class="selectedMap" onclick="nextCountry();" src="media/057_map_italy.png" alt="selectedMap6">
       </div>
 
     <div id="container7" class="container7">
@@ -80,9 +86,9 @@
           <p id="points2"> Points: 900</p>
           <p id="faults2"> Faults: 4</p>
         </div>
-        <p id="gallery" class="gallery" onclick="gallery();">Learning</p>
+        <p id="gallery" class="gallery" onclick="gallery();"> Learning </p>
         <p id="reStart" class="reStart" onclick="reStart();">Restart</p>
-        <p id="next6" class="next6" onclick="next6();">Next six countries</p>
+
       </div>
 
     <div id="container8" class="container8">
@@ -91,6 +97,30 @@
           <div class="rahmen">
             <h4 class="gallery">World</h4>
             <img class="gallery" src="media/057_map_world.png" alt="057_map_world.png">
+          </div>
+          <div class="rahmen">
+            <h4 class="gallery">Holland</h4>
+            <img class="gallery" src="media/057_map_holland.png"  alt="057_map_holland.png">
+          </div>
+          <div class="rahmen">
+            <h4 class="gallery">Italy</h4>
+            <img class="gallery" src="media/057_map_italy.png"  alt="057_map_italy.png">
+          </div>
+          <div class="rahmen">
+            <h4 class="gallery">Mexico</h4>
+            <img class="gallery" src="media/057_map_mexico.png"  alt="057_map_mexico.png">
+          </div>
+          <div class="rahmen">
+            <h4 class="gallery">Switzerland</h4>
+            <img class="gallery" src="media/057_map_switzerland.png"  alt="057_map_switzerland.png">
+          </div>
+          <div class="rahmen">
+            <h4 class="gallery">Brazil</h4>
+            <img class="gallery" src="media/057_map_brazil.png"  alt="057_map_brazil.png">
+          </div>
+          <div class="rahmen">
+            <h4 class="gallery">India</h4>
+            <img class="gallery" src="media/057_map_india.png"  alt="media/057_map_india.png">
           </div>
           <div class="rahmen">
             <h4 class="gallery">Holland</h4>
@@ -144,10 +174,64 @@
             <h4 class="gallery">India</h4>
             <img class="gallery" src="media/057_Flag_of_India.svg"  alt="057_Flag_of_India.svg">
           </div>
+          <div class="rahmen">
+            <h4 class="gallery">Holland</h4>
+            <img class="gallery" src="media/057_Flag_of_Netherlands.svg" alt="057_Flag_of_Netherlands.svg">
+          </div>
+          <div class="rahmen">
+            <h4 class="gallery">Italy</h4>
+            <img class="gallery" src="media/057_Flag_of_Italy.svg"  alt="057_Flag_of_Italy.svg">
+          </div>
+          <div class="rahmen">
+            <h4 class="gallery">Mexico</h4>
+            <img class="gallery" src="media/057_Flag_of_Mexico.svg"  alt="057_Flag_of_Mexico.svg">
+          </div>
+          <div class="rahmen">
+            <h4 class="gallery">Switzerland</h4>
+            <img class="gallery" src="media/057_Flag_of_Switzerland.svg"  alt="057_Flag_of_Switzerland.svg">
+          </div>
+          <div class="rahmen">
+            <h4 class="gallery">Brazil</h4>
+            <img class="gallery" src="media/057_Flag_of_Brazil.svg"  alt="057_Flag_of_Brazil.svg">
+          </div>
+          <div class="rahmen">
+            <h4 class="gallery">India</h4>
+            <img class="gallery" src="media/057_Flag_of_India.svg"  alt="057_Flag_of_India.svg">
+          </div>
         </div>
 
       <h2 class="gallery">Food</h2>
         <div>
+          <div class="rahmen">
+            <h4 class="gallery">Holland</h4>
+            <img class="gallery" src="media/057_food_holland.png" alt="057_food_holland.png">
+            <h5> Gouda cheese </h5>
+          </div>
+          <div class="rahmen">
+            <h4 class="gallery">Italy</h4>
+            <img class="gallery" src="media/057_food_italy.png"  alt="057_food_italy.png">
+            <h5> Pizza </h5>
+          </div>
+          <div class="rahmen">
+            <h4 class="gallery">Mexico</h4>
+            <img class="gallery" src="media/057_food_mexico.png"  alt="057_food_mexico.png">
+            <h5> Taco </h5>
+          </div>
+          <div class="rahmen">
+            <h4 class="gallery">Switzerland</h4>
+            <img class="gallery" src="media/057_food_switzerland.png"  alt="057_food_switzerland.png">
+            <h5> Älplermagronen with apple compote as a side dish </h5>
+          </div>
+          <div class="rahmen">
+            <h4 class="gallery">Brazil</h4>
+            <img class="gallery" src="media/057_food_brazil.png"  alt="057_food_brazil.png">
+            <h5> Coffee beans </h5>
+          </div>
+          <div class="rahmen">
+          <h4 class="gallery">India</h4>
+            <img class="gallery" src="media/057_food_india.png"  alt="057_food_india.png">
+            <h5> Indian spice </h5>
+          </div>
           <div class="rahmen">
             <h4 class="gallery">Holland</h4>
             <img class="gallery" src="media/057_food_holland.png" alt="057_food_holland.png">
@@ -212,6 +296,36 @@
             <img class="gallery" src="media/057_special_india.png"  alt="057_special_india.png">
             <h5> Golden Temple (Harmandir Sahib) at night </h5>
           </div>
+          <div class="rahmen">
+            <h4 class="gallery">Holland</h4>
+            <img class="gallery" src="media/057_special_holland.png" alt="057_special_holland.png">
+            <h5> Windmills </h5>
+          </div>
+          <div class="rahmen">
+            <h4 class="gallery">Italy</h4>
+            <img class="gallery" src="media/057_special_italy.png"  alt="057_special_italy.png">
+            <h5> Leaning Tower of Pisa </h5>
+          </div>
+          <div class="rahmen">
+            <h4 class="gallery">Mexico</h4>
+            <img class="gallery" src="media/057_special_mexico.png"  alt="057_special_mexico.png">
+            <h5> Sombrero </h5>
+          </div>
+          <div class="rahmen">
+            <h4 class="gallery">Switzerland</h4>
+            <img class="gallery" src="media/057_special_switzerland.png"  alt="057_special_switzerland.png">
+            <h5> Alphorn concert in Vals </h5>
+          </div>
+          <div class="rahmen">
+            <h4 class="gallery">Brazil</h4>
+            <img class="gallery" src="media/057_special_brazil.png"  alt="057_special_brazil.png">
+            <h5> Brazilian Carnival </h5>
+          </div>
+          <div class="rahmen">
+            <h4 class="gallery">India</h4>
+            <img class="gallery" src="media/057_special_india.png"  alt="057_special_india.png">
+            <h5> Golden Temple (Harmandir Sahib) at night </h5>
+          </div>
         </div>
       <br>
       <div>
@@ -228,47 +342,66 @@
         preload[4] = "media/057_map_switzerland.png";
         preload[5] = "media/057_map_brazil.png";
         preload[6] = "media/057_map_india.png";
+        preload[7] = "media/057_map_holland.png";
+        preload[8] = "media/057_map_italy.png";
+        preload[9] = "media/057_map_mexico.png";
+        preload[10] = "media/057_map_testland.png";
+        preload[11] = "media/057_map_brazil.png";
+        preload[12] = "media/057_map_india.png";
 
-        preload[7] = "media/057_Flag_of_Netherlands.svg";
-        preload[8] = "media/057_Flag_of_Italy.svg";
-        preload[9] = "media/057_Flag_of_Mexico.svg";
-        preload[10] = "media/057_Flag_of_Switzerland.svg";
-        preload[11] = "media/057_Flag_of_Brazil.svg";
-        preload[12] = "media/057_Flag_of_India.svg";
+        preload[13] = "media/057_Flag_of_Netherlands.svg";
+        preload[14] = "media/057_Flag_of_Italy.svg";
+        preload[15] = "media/057_Flag_of_Mexico.svg";
+        preload[16] = "media/057_Flag_of_Switzerland.svg";
+        preload[17] = "media/057_Flag_of_Brazil.svg";
+        preload[18] = "media/057_Flag_of_India.svg";
+        preload[19] = "media/057_Flag_of_Netherlands.svg";
+        preload[20] = "media/057_Flag_of_Italy.svg";
+        preload[21] = "media/057_Flag_of_Mexico.svg";
+        preload[22] = "media/057_Flag_of_Testland.svg";
+        preload[23] = "media/057_Flag_of_Brazil.svg";
+        preload[24] = "media/057_Flag_of_India.svg";
 
-        preload[13] = "media/057_food_holland.png";
-        preload[14] = "media/057_food_italy.png";
-        preload[15] = "media/057_food_mexico.png";
-        preload[16] = "media/057_food_switzerland.png";
-        preload[17] = "media/057_food_brazil.png";
-        preload[18] = "media/057_food_india.png";
+        preload[25] = "media/057_food_holland.png";
+        preload[26] = "media/057_food_italy.png";
+        preload[27] = "media/057_food_mexico.png";
+        preload[28] = "media/057_food_switzerland.png";
+        preload[29] = "media/057_food_brazil.png";
+        preload[30] = "media/057_food_india.png";
+        preload[31] = "media/057_food_holland.png";
+        preload[32] = "media/057_food_italy.png";
+        preload[33] = "media/057_food_mexico.png";
+        preload[34] = "media/057_food_testland.png";
+        preload[35] = "media/057_food_brazil.png";
+        preload[36] = "media/057_food_india.png";
 
-        preload[19] = "media/057_special_holland.png";
-        preload[20] = "media/057_special_italy.png";
-        preload[21] = "media/057_special_mexico.png";
-        preload[22] = "media/057_special_switzerland.png";
-        preload[23] = "media/057_special_brazil.png";
-        preload[24] = "media/057_special_india.png";
+        preload[37] = "media/057_special_holland.png";
+        preload[38] = "media/057_special_italy.png";
+        preload[39] = "media/057_special_mexico.png";
+        preload[40] = "media/057_special_switzerland.png";
+        preload[41] = "media/057_special_brazil.png";
+        preload[42] = "media/057_special_india.png";
+        preload[43] = "media/057_special_holland.png";
+        preload[44] = "media/057_special_italy.png";
+        preload[45] = "media/057_special_mexico.png";
+        preload[46] = "media/057_special_testland.png";
+        preload[47] = "media/057_special_brazil.png";
+        preload[48] = "media/057_special_india.png";
 
         var picture = new Array();
 
-        function vorladen() {
-          let i;
-          for (i = 0; i < preload.length; i++) {
-            picture[i] = new Image();
-            picture[i].src = preload[i];
-            }
-          }
       vorladen();
+      function vorladen() {
+        let i;
+        for (i = 0; i < preload.length; i++) {
+          picture[i] = new Image();
+          picture[i].src = preload[i];
+          }
+        }
 
       var country; // Variable
         var map_text = "Click the map from ";
-        var country1 = "Holland";
-        var country2 = "Italy";
-        var country3 = "Mexico";
-        var country4 = "Switzerland";
-        var country5 = "Brazil";
-        var country6 = "India";
+        var loadPic = 1;
         var countryKey;
         var countryCount = 0;
         var zufZahl1; // 1 - 2
@@ -287,12 +420,51 @@
         var specialOk;
         var points = 0;
         var faults = 0;
+        //var nextPic = 0;
+        var roundCounter = 0; // Zaehler der Durchgaenge
+        var country1  = preload[1].substring(preload[1].lastIndexOf("_")+1,preload[1].lastIndexOf("."))[0].toUpperCase() + preload[1].substring(preload[1].lastIndexOf("_")+1,preload[1].lastIndexOf(".")).slice(1);
+        var country2  = preload[2].substring(preload[2].lastIndexOf("_")+1,preload[2].lastIndexOf("."))[0].toUpperCase() + preload[2].substring(preload[2].lastIndexOf("_")+1,preload[2].lastIndexOf(".")).slice(1);
+        var country3  = preload[3].substring(preload[3].lastIndexOf("_")+1,preload[3].lastIndexOf("."))[0].toUpperCase() + preload[3].substring(preload[3].lastIndexOf("_")+1,preload[3].lastIndexOf(".")).slice(1);
+        var country4  = preload[4].substring(preload[4].lastIndexOf("_")+1,preload[4].lastIndexOf("."))[0].toUpperCase() + preload[4].substring(preload[4].lastIndexOf("_")+1,preload[4].lastIndexOf(".")).slice(1);
+        var country5  = preload[5].substring(preload[5].lastIndexOf("_")+1,preload[5].lastIndexOf("."))[0].toUpperCase() + preload[5].substring(preload[5].lastIndexOf("_")+1,preload[5].lastIndexOf(".")).slice(1);
+        var country6  = preload[6].substring(preload[6].lastIndexOf("_")+1,preload[6].lastIndexOf("."))[0].toUpperCase() + preload[6].substring(preload[6].lastIndexOf("_")+1,preload[6].lastIndexOf(".")).slice(1);
+
+        var country7  = preload[7].substring(preload[7].lastIndexOf("_")+1,preload[7].lastIndexOf("."))[0].toUpperCase() + preload[7].substring(preload[7].lastIndexOf("_")+1,preload[7].lastIndexOf(".")).slice(1);
+        var country8  = preload[8].substring(preload[8].lastIndexOf("_")+1,preload[8].lastIndexOf("."))[0].toUpperCase() + preload[8].substring(preload[8].lastIndexOf("_")+1,preload[8].lastIndexOf(".")).slice(1);
+        var country9  = preload[9].substring(preload[9].lastIndexOf("_")+1,preload[9].lastIndexOf("."))[0].toUpperCase() + preload[9].substring(preload[9].lastIndexOf("_")+1,preload[9].lastIndexOf(".")).slice(1);
+        var country10 = preload[10].substring(preload[10].lastIndexOf("_")+1,preload[10].lastIndexOf("."))[0].toUpperCase() + preload[10].substring(preload[10].lastIndexOf("_")+1,preload[10].lastIndexOf(".")).slice(1);
+        var country11 = preload[11].substring(preload[11].lastIndexOf("_")+1,preload[11].lastIndexOf("."))[0].toUpperCase() + preload[11].substring(preload[11].lastIndexOf("_")+1,preload[11].lastIndexOf(".")).slice(1);
+        var country12 = preload[12].substring(preload[12].lastIndexOf("_")+1,preload[12].lastIndexOf("."))[0].toUpperCase() + preload[12].substring(preload[12].lastIndexOf("_")+1,preload[12].lastIndexOf(".")).slice(1);
+
+      labeling();
+      function labeling() {
+        console.log(roundCounter);
+        /*if (roundCounter == 1) {
+          country1 = country7;
+          console.log("Country 7");
+        }*/
+
+        document.getElementById("box1").innerHTML = country1;
+        document.getElementById("box2").innerHTML = country2;
+        document.getElementById("box3").innerHTML = country3;
+        document.getElementById("box4").innerHTML = country4;
+        document.getElementById("box5").innerHTML = country5;
+        document.getElementById("box6").innerHTML = country6;
+        document.getElementById("box7").innerHTML = country7;
+        document.getElementById("box8").innerHTML = country8;
+        document.getElementById("box9").innerHTML = country9;
+        document.getElementById("box10").innerHTML = country10;
+        document.getElementById("box11").innerHTML = country11;
+        document.getElementById("box12").innerHTML = country12;
+        }
+
 
       function chooseCountry(key) { // container1
         zufZahl1 = Math.floor( Math.random() * 2 + 1 );
-        zufZahl2 = Math.floor( Math.random() * 6 + 1 );
+        // ori zufZahl2 = Math.floor( Math.random() * 6 + 1 );
+        zufZahl2 = Math.floor( Math.random() * 12 + 1 );
         // console.log(zufZahl1 + " (1 - 2)");
-        // console.log(zufZahl2 + " (1 - 6)");
+         console.log(zufZahl2 + " (1 - 6) neu 12");
           if (key == 1) {
             countryKey = parseInt(key);
             country = country1;
@@ -396,11 +568,113 @@
               var map2 = preload[key];
             }
           }
+          if (key == 7) {
+            countryKey = parseInt(key);
+            country = country7;
+            map_text = map_text + country7;
+            if (zufZahl2 == 7) {
+              zufZahl2 = zufZahl2 - zufZahl1;
+            }
+            if (zufZahl1 == 1) {
+              map = "true1";
+              var map1 = preload[key];
+              var map2 = preload[zufZahl2];
+            } else {
+              map = "true2";
+              var map1 = preload[zufZahl2];
+              var map2 = preload[key];
+            }
+          }
+          if (key == 8) {
+            countryKey = parseInt(key);
+            country = country8;
+            map_text = map_text + country8;
+            if (zufZahl2 == 8) {
+              zufZahl2 = zufZahl2 - zufZahl1;
+            }
+            if (zufZahl1 == 1) {
+              map = "true1";
+              var map1 = preload[key];
+              var map2 = preload[zufZahl2];
+            } else {
+              map = "true2";
+              var map1 = preload[zufZahl2];
+              var map2 = preload[key];
+            }
+          }
+          if (key == 9) {
+            countryKey = parseInt(key);
+            country = country9;
+            map_text = map_text + country9;
+            if (zufZahl2 == 9) {
+              zufZahl2 = zufZahl2 - zufZahl1;
+            }
+            if (zufZahl1 == 1) {
+              map = "true1";
+              var map1 = preload[key];
+              var map2 = preload[zufZahl2];
+            } else {
+              map = "true2";
+              var map1 = preload[zufZahl2];
+              var map2 = preload[key];
+            }
+          }
+          if (key == 10) {
+            countryKey = parseInt(key);
+            country = country10;
+            map_text = map_text + country10;
+            if (zufZahl2 == 10) {
+              zufZahl2 = zufZahl2 - zufZahl1;
+            }
+            if (zufZahl1 == 1) {
+              map = "true1";
+              var map1 = preload[key];
+              var map2 = preload[zufZahl2];
+            } else {
+              map = "true2";
+              var map1 = preload[zufZahl2];
+              var map2 = preload[key];
+            }
+          }
+          if (key == 11) {
+            countryKey = parseInt(key);
+            country = country11;
+            map_text = map_text + country11;
+            if (zufZahl2 == 11) {
+              zufZahl2 = zufZahl2 - zufZahl1;
+            }
+            if (zufZahl1 == 1) {
+              map = "true1";
+              var map1 = preload[key];
+              var map2 = preload[zufZahl2];
+            } else {
+              map = "true2";
+              var map1 = preload[zufZahl2];
+              var map2 = preload[key];
+            }
+          }
+          if (key == 12) {
+            countryKey = parseInt(key);
+            country = country12;
+            map_text = map_text + country12;
+            if (zufZahl2 == 12) {
+              zufZahl2 = zufZahl2 - zufZahl1;
+            }
+            if (zufZahl1 == 1) {
+              map = "true1";
+              var map1 = preload[key];
+              var map2 = preload[zufZahl2];
+            } else {
+              map = "true2";
+              var map1 = preload[zufZahl2];
+              var map2 = preload[key];
+            }
+          }
 
         selectedMap =  preload[parseInt(key)];
-        selectedFlag = preload[parseInt(key)+6];
-        selectedFood = preload[parseInt(key)+12];
-        selectedSpecial = preload[parseInt(key)+18];
+        selectedFlag = preload[parseInt(key)+12];
+        selectedFood = preload[parseInt(key)+24];
+        selectedSpecial = preload[parseInt(key)+36];
 
         document.getElementById("box"+key).style.visibility = "hidden";
         document.getElementById("container1").style.visibility = "hidden";
@@ -418,6 +692,7 @@
       }
 
       function gallery()  {
+        console.log("Test");
         document.getElementById("container8").style.visibility = "visible";
         window.scrollBy({ top: 300, left: 0, behavior: "smooth" });
       }
@@ -462,10 +737,10 @@
             }
             // console.log(zufall);
             // console.log(zufall.indexOf(countryKey));
-            flag1 = preload[zufall[0]+6]
-            flag2 = preload[zufall[1]+6]
-            flag3 = preload[zufall[2]+6]
-            flag4 = preload[zufall[3]+6]
+            flag1 = preload[zufall[0]+12]
+            flag2 = preload[zufall[1]+12]
+            flag3 = preload[zufall[2]+12]
+            flag4 = preload[zufall[3]+12]
             flagOk = zufall.indexOf(countryKey);
             // console.log("flagOk ist pos. :" + flagOk);
 
@@ -535,10 +810,10 @@
               }
               // console.log(zufall);
               // console.log(zufall.indexOf(countryKey));
-              food1 = preload[zufall[0]+12]
-              food2 = preload[zufall[1]+12]
-              food3 = preload[zufall[2]+12]
-              food4 = preload[zufall[3]+12]
+              food1 = preload[zufall[0]+24]
+              food2 = preload[zufall[1]+24]
+              food3 = preload[zufall[2]+24]
+              food4 = preload[zufall[3]+24]
               foodOk = zufall.indexOf(countryKey);
               // console.log("foodOk ist pos. :" + foodOk);
 
@@ -606,10 +881,10 @@
               // console.log(zufall);
               // console.log(zufall.indexOf(countryKey));
 
-              special1 = preload[zufall[0]+18]
-              special2 = preload[zufall[1]+18]
-              special3 = preload[zufall[2]+18]
-              special4 = preload[zufall[3]+18]
+              special1 = preload[zufall[0]+36]
+              special2 = preload[zufall[1]+36]
+              special3 = preload[zufall[2]+36]
+              special4 = preload[zufall[3]+36]
               specialOk = zufall.indexOf(countryKey);
               // console.log("4specialOk ist pos. :" + specialOk);
 
@@ -669,12 +944,11 @@
       }
 
       function nextCountry()  {
-        //console.log("nextCountry");
-        // Anzahl Countries, bei 6 click auf Map
+        // Anzahl Countries, bei 12 click auf Map
         // Endstand und reload anzeigen
         countryCount = countryCount +1;
         // if (countryCount == 2) { // for test
-        if (countryCount == 6) {
+        if (countryCount == 12) {
           schluss();
         }
         else {
@@ -687,14 +961,16 @@
         }
 
         function schluss ()  {
-        // console.log("Ende");
+
+
           finish2 = "Game over";
+
           document.getElementById("finish").innerHTML = finish;
           document.getElementById("finish2").innerHTML = finish2;
           document.getElementById("container1").style.visibility = "hidden";
           document.getElementById("container6").style.visibility = "hidden";
           document.getElementById("container7").style.visibility = "visible";
-          document.getElementById('points2').innerHTML = "Points: " + points + " from maximum 2400";
+          document.getElementById('points2').innerHTML = "Points: " + points + " from maximum 4800";
           document.getElementById('faults2').innerHTML = "Faults: " + faults;
         }
       }

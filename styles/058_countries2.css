@@ -4,7 +4,6 @@
   user-select: none;
   -moz-user-select: none;
   -webkit-user-select: none;
-  -ms-user-select: none;
   }
 
 body   {
@@ -59,14 +58,15 @@ h5 {
 	grid-template-columns: 170px 170px;
   }
 	.box {
-	  width: 90px;
+	  width: 130px;
 	  color: green;
 	  text-align: center;
 	  background-color: lightyellow;
-	  border:  2px solid red;
-	  border-radius: 0 1em 1em 1em;
-	  margin:  10px auto;
-	  padding: 1em;
+	  border:  1px solid red;
+	  border-radius: 1em 1em 1em 1em;
+	  margin:  6px auto;
+	  padding: 5px;
+    font-size: 16px;
 	}
   .container1 img {
   	width: 100%;
@@ -78,14 +78,15 @@ h5 {
 	    }
 		#reStart, #gallery,
 		#next6	{
-			width: 70px;
+			width: 110px;
 		  color: green;
 		  text-align: center;
 		  background-color: lightyellow;
-		  border:  2px solid blue;
+		  border:  1px solid blue;
 		  border-radius: 1em 1em 1em 1em;
-			margin:  10px auto;
-		  padding: 1em;
+			margin:  6px auto;
+		  padding: 5px;
+      font-size: 16px
 			}
 
 .container2 {
@@ -210,19 +211,14 @@ h5 {
     }
 
 .container8 {
-	display: grid;
-	grid-template-columns: 340px;
-	}
+  width: 340px;
+  	}
 
 	.container8 img {
     width: 326px;
   	display: block;
     padding: 5px;
     }
-
-	.gallery h2, h4 {
-	  text-align:center;
-	  }
 
   .rahmen {
     border:  2px solid blue;
