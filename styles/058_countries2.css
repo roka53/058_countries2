@@ -206,8 +206,11 @@ h5 {
     text-align: center;
     color: blue;
     font-weight: bold;
-    border:  5px solid green;
+    padding: 10px;
+    border:  2px solid green;
     grid-column: 1 / span 2;
+    position: absolute;
+    top: 218px;
     }
 
 .container8 {
@@ -223,4 +226,17 @@ h5 {
   .rahmen {
     border:  2px solid blue;
   	margin-bottom: 20px;
+    }
+
+  .upButton {
+    position:fixed;
+    top:1.5em;
+    left:0.5em;
+    color: green;
+    text-align: center;
+    background-color: lightyellow;
+    border:  1px solid blue;
+    border-radius: 1em 1em 1em 1em;
+    padding: 5px;
+    font-size: 16px
     }
